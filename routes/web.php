@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('generator', 'ImageGenerateController@index');
+
+Route::post('generator/create', 'ImageGenerateController@createImage');
