@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('generator', 'ImageGenerateController@index');
 
 Route::post('generator/create', 'ImageGenerateController@createImage');
+
+Route::get('watermark', 'WaterMarkController@index');
+
+Route::post('watermark/create', 'WaterMarkController@createImage');
+
+Route::get('reiwa', 'ReiwaFakeAdController@index');
+
+Route::get('reiwa/create', 'ReiwaFakeAdController@createImage');

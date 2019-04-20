@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Intervention\Image\Facades\Image;
 
-class ImageGenerateController extends Controller
+class ReiwaFakeAdController extends Controller
 {
     public function index ()
     {
-        return view('messageForm');
+        return view('reiwaFakeAdForm');
     }
 
     public function createImage (Request $request)
